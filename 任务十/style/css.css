@@ -1,0 +1,49 @@
+
+.div {
+    display: flex;
+    border: 2px black solid;
+    align-items: center;
+    justify-content: space-between;
+    padding:20px;
+}
+.div1 {
+    height: 120px;
+    width:150px;
+    border: 2px red solid;
+}
+.div2 {
+    height: 100px;
+    width:150px;
+    border: 2px red solid;
+}
+.div3 {
+    height: 40px;
+    width:150px;
+    border: 2px red solid;
+}
+.div4 {
+    height: 200px;
+    width:150px;
+    border: 2px blue solid;
+}
+/*响应式布局*/
+@media screen and (max-width:640px)
+{
+    .div1{
+        order:2 ;
+    }
+    .div2{
+        order:3 ;
+    }
+    .div3{
+        order:4;
+        margin-top:20px;
+    }
+    .div4{
+        order:1 ;
+    }
+    .div{
+        align-items: flex-start;
+        flex-wrap:wrap;
+    }
+}

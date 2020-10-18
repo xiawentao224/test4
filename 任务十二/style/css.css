@@ -1,0 +1,138 @@
+.table
+{
+   font-weight: bold;
+}
+.table tr:nth-child(odd)
+{
+    background-color: #cccccc;
+}
+.table tr:nth-child(even) td:nth-of-type(2)
+{
+    color:red;
+}
+.table tr:nth-of-type(1)
+{
+ background-color: #000100;
+ color: white;
+}
+.table tr:nth-of-type(2)
+{
+color:red;
+}
+.table tr:nth-of-type(3)
+{
+color:red;
+}
+.table tr:nth-of-type(4)
+{
+color:red;
+}
+input
+{
+    margin-left: 40px;
+    height:20px;
+    width:140px;
+    transition: ease-in 1s;
+}
+input:focus
+{
+    height:16px;
+    width:200px;
+    box-shadow: 0 0 15px #03a9f4; 
+}
+.total
+{ 
+    width:400px;
+    height:200px;
+    overflow: hidden;
+    animation: myfirst 5s;
+    position: relative;
+
+}
+.tu{
+width:1200px;
+height:200px;
+position: absolute;
+top:0;
+animation: myfirst 6s infinite;
+background-color: red;
+display: flex;
+}
+
+.tu img
+{
+    width:400px;
+    height:200px; 
+}
+
+
+@keyframes myfirst
+{
+   0%{left:0;}
+   33%{left:0;}
+   33.3%{left:-400px;}
+   60%{left:-400px;}
+   66%{left:-800px;}
+   90%{left:-800px;}
+   100%{left:0;}
+}
+.tu:hover
+{
+    animation-play-state: paused;
+}
+.du
+{
+    position: relative;
+    display: flex;
+    left:290px;
+    top:170px;
+    text-decoration: none;
+    text-align: center;
+    
+}
+.a 
+{
+    width: 30px;
+    height:30px;
+    background-color: white;
+    opacity: 0.6;
+    padding-top: 3px;
+   
+}
+.a:hover
+{
+    left:0;
+}
+.b
+{
+    width: 30px;
+    height:30px;
+    background-color: white;
+    opacity: 0.6;
+    margin-left:10px;
+    padding-top: 3px;
+    
+}
+.b:hover
+{
+    left:-400px;
+}
+.c 
+{
+    width: 30px;
+    height:30px;
+    background-color: white;
+    opacity: 0.6;
+    margin-left:10px;
+    padding-top: 3px;
+  
+}
+.c:hover
+{
+    left:-800px;
+}
+.du a
+{
+    text-decoration: none; 
+    font-weight: bold;
+}

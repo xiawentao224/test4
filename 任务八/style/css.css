@@ -1,0 +1,114 @@
+.total{
+    width:auto;
+    height: auto;
+    border: 1px #999 solid;
+    display: flex;
+    flex-wrap:wrap ;
+    justify-content: space-around;
+    border: 2px black solid;
+}
+.a {
+    width:30%;
+    height: 50px;
+    border:1px #999 solid;
+    background-color: #eee;
+    margin:20px;
+}
+.b {
+    width:30%;
+    height: 50px;
+    border:1px #999 solid;
+    background-color: #eee;
+    margin:20px;
+}
+.c {
+    width:30%;
+    height: 50px;
+    border:1px #999 solid;
+    background-color: #eee;  margin:20px;
+}
+.d {
+    width:20%;
+    height: 50px;
+    border:1px #999 solid;
+    background-color: #eee;  margin:20px;
+}
+.e {
+    width:50%;
+    height: 50px;
+    border:1px #999 solid;
+    background-color: #eee;  margin:20px;
+}
+.f {
+    width:20%;
+    height: 50px;
+    border:1px #999 solid;
+    background-color: #eee;  margin:20px;
+}
+.g {
+    width:10%;
+    height: 50px;
+    border:1px #999 solid;
+    background-color: #eee; 
+     margin:20px;
+}
+.h {
+    width:10%;
+    height: 50px;
+    border:1px #999 solid;
+    background-color: #eee;  margin:20px;
+}
+.i {
+    width:15%;
+    height: 50px;
+    border:1px #999 solid;
+    background-color: #eee;  margin:20px;
+}
+.j {
+    width:15%;
+    height: 50px;
+    border:1px #999 solid;
+    background-color: #eee;  margin:20px;
+}
+.k {
+    width:40%;
+    height: 50px;
+    border:1px #999 solid;
+    background-color: #eee;  margin:20px;
+}
+@media screen and (max-width:768px){ 
+    .a {
+    width:40%;
+    background-color: red;
+    }
+    .b {
+    width:40%;
+    }
+    .c {
+    width:80%;  
+    }
+    .d {
+    width:20%;  
+    }
+    .e {
+    width:40%;  
+    }
+    .f {
+    width:20%;  
+    }
+    .g {
+    width:15%;  
+    }
+    .h {
+    width:15%;  
+    }
+    .i {
+    width:60%;  
+    }
+    .j {
+    width:20%;  
+    }
+    .k {
+    width:20%;  
+    }
+ }  
